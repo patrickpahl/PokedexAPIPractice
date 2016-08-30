@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		792897291D75E6670076302F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792897281D75E6670076302F /* AppDelegate.swift */; };
-		7928972B1D75E6670076302F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928972A1D75E6670076302F /* ViewController.swift */; };
 		7928972E1D75E6680076302F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7928972C1D75E6680076302F /* Main.storyboard */; };
 		792897301D75E6680076302F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7928972F1D75E6680076302F /* Assets.xcassets */; };
 		792897331D75E6680076302F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792897311D75E6680076302F /* LaunchScreen.storyboard */; };
+		7928973B1D75E67A0076302F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928973A1D75E67A0076302F /* NetworkController.swift */; };
+		7928973D1D75E6BB0076302F /* PokeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		792897251D75E6670076302F /* PokedexAPIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokedexAPIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		792897281D75E6670076302F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7928972A1D75E6670076302F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7928972D1D75E6680076302F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7928972F1D75E6680076302F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792897321D75E6680076302F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792897341D75E6680076302F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7928973A1D75E67A0076302F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		7928971C1D75E6670076302F = {
 			isa = PBXGroup;
 			children = (
+				7928973A1D75E67A0076302F /* NetworkController.swift */,
 				792897271D75E6670076302F /* PokedexAPIPractice */,
 				792897261D75E6670076302F /* Products */,
 			);
@@ -55,8 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				792897281D75E6670076302F /* AppDelegate.swift */,
-				7928972A1D75E6670076302F /* ViewController.swift */,
 				7928972C1D75E6680076302F /* Main.storyboard */,
+				7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */,
 				7928972F1D75E6680076302F /* Assets.xcassets */,
 				792897311D75E6680076302F /* LaunchScreen.storyboard */,
 				792897341D75E6680076302F /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7928972B1D75E6670076302F /* ViewController.swift in Sources */,
 				792897291D75E6670076302F /* AppDelegate.swift in Sources */,
+				7928973D1D75E6BB0076302F /* PokeSearchViewController.swift in Sources */,
+				7928973B1D75E67A0076302F /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
