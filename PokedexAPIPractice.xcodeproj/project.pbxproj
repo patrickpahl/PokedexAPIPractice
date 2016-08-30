@@ -13,6 +13,10 @@
 		792897331D75E6680076302F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792897311D75E6680076302F /* LaunchScreen.storyboard */; };
 		7928973B1D75E67A0076302F /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928973A1D75E67A0076302F /* NetworkController.swift */; };
 		7928973D1D75E6BB0076302F /* PokeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */; };
+		7928973F1D75EB0E0076302F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7928973E1D75EB0E0076302F /* Pokemon.swift */; };
+		792897411D75EDD80076302F /* pokemonJSON.png in Resources */ = {isa = PBXBuildFile; fileRef = 792897401D75EDD80076302F /* pokemonJSON.png */; };
+		792897431D75F2050076302F /* PokemonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792897421D75F2050076302F /* PokemonController.swift */; };
+		792897451D75FB1A0076302F /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792897441D75FB1A0076302F /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		792897341D75E6680076302F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7928973A1D75E67A0076302F /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeSearchViewController.swift; sourceTree = "<group>"; };
+		7928973E1D75EB0E0076302F /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		792897401D75EDD80076302F /* pokemonJSON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemonJSON.png; sourceTree = "<group>"; };
+		792897421D75F2050076302F /* PokemonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonController.swift; sourceTree = "<group>"; };
+		792897441D75FB1A0076302F /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 			children = (
 				792897281D75E6670076302F /* AppDelegate.swift */,
 				7928972C1D75E6680076302F /* Main.storyboard */,
+				7928973E1D75EB0E0076302F /* Pokemon.swift */,
 				7928973C1D75E6BB0076302F /* PokeSearchViewController.swift */,
+				792897421D75F2050076302F /* PokemonController.swift */,
+				792897441D75FB1A0076302F /* ImageController.swift */,
 				7928972F1D75E6680076302F /* Assets.xcassets */,
 				792897311D75E6680076302F /* LaunchScreen.storyboard */,
 				792897341D75E6680076302F /* Info.plist */,
+				792897401D75EDD80076302F /* pokemonJSON.png */,
 			);
 			path = PokedexAPIPractice;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				792897331D75E6680076302F /* LaunchScreen.storyboard in Resources */,
+				792897411D75EDD80076302F /* pokemonJSON.png in Resources */,
 				792897301D75E6680076302F /* Assets.xcassets in Resources */,
 				7928972E1D75E6680076302F /* Main.storyboard in Resources */,
 			);
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				792897291D75E6670076302F /* AppDelegate.swift in Sources */,
+				7928973F1D75EB0E0076302F /* Pokemon.swift in Sources */,
 				7928973D1D75E6BB0076302F /* PokeSearchViewController.swift in Sources */,
 				7928973B1D75E67A0076302F /* NetworkController.swift in Sources */,
+				792897431D75F2050076302F /* PokemonController.swift in Sources */,
+				792897451D75FB1A0076302F /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
